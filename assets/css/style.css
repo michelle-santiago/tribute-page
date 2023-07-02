@@ -1,0 +1,111 @@
+body{
+  padding: 0;
+  margin:0; 
+}
+#main{
+  font-family: 'Sneak', sans-serif;
+  font-weight: lighter;
+}
+
+#title{
+  text-align: center;
+  text-align: center;
+  font-style: Tahoma;
+  letter-spacing: 5px;
+  padding: 10px;
+ 
+}
+
+#nav{
+  position: sticky;
+  top: 0;
+  background-color:white;
+  opacity: 80%;
+  font-size: 20px;
+  padding: 5px;
+  border-top: outset;
+  border-bottom: outset
+}
+
+ul{
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    text-decoration: none;
+}
+li a {
+    color:black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    color:burlywood;
+}
+#img-header img{
+  max-width: 100%;
+}
+section{
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+article{
+  display: flex;
+  flex-direction: row;
+}
+ @media (max-width: 800px) {
+  article {
+    flex-direction: column;
+  }
+}
+#img-div{
+  flex: 60%;
+  padding: 20px;
+}
+#image{
+  max-width: 100%;
+  max-height: 100%;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+#img-caption{
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+#tribute-info{
+  flex: 40%;
+  text-align: justify;
+}
+#tribute-link{
+  text-decoration: none;
+  color:burlywood;
+}
+#tribute-link:hover {
+  color: black;
+  background-color: beige;
+}
+.heading{
+  letter-spacing: 3px;
+  padding: 20px;
+  text-align: center;
+}
+#book-story{
+ flex: 70%; 
+}
+#img-book{
+  flex: 30%;
+  max-width: 100%;
+  height: 300px;
+  border-radius: 20%;
+}
+footer{
+  text-align: center;
+  padding:10px;
+  background-color: black;
+  color: white;
+ }
+
+ 
